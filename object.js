@@ -88,8 +88,37 @@ const frankie = new Person("Frankie");
 frankie.name;
 frankie.introduceSelf();*/
 
+/*const myDate = new Date();
+let object = myDate;
+console.log(myDate);*/
 
-  
+/*do {
+  object = Object.getPrototypeOf(object);//date
+  console.log(object);
+} while (object);*/
+/*while(object){
+  object = Object.getPrototypeOf(object);//date
+  console.log(object);
+}*/
+
+// Date.prototype
+// Object { }
+// null
+// const myDate = new Date(1995, 11, 17);//date()
+
+// console.log(myDate.getDate()); // 95
+
+// myDate.getYear = function () {
+//   console.log("something else!");
+// };
+
+// myDate.getYear(); // 'something else!'
+
+ // 'something else!'
+
+// Date.prototype
+// Object { }
+// null
   
 
     
